@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle"
+        android:layout_marginTop="300dp"
+        android:text="Start"
+        android:textAllCaps="true"
+        android:textColor="#5F9EA0"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient"/>
+     />
+
+
+
+</RelativeLayout>

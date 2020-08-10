@@ -1,0 +1,167 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LTE measurements"
+            android:textSize="35sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:text="RSRP:"
+                android:textColor="#5F9EA0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/rsrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:text="RSRQ:"
+                android:textColor="#5F9EA0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/rsrq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:text="SINR:"
+                android:textColor="#5F9EA0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/sinr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:text="Signal strength:"
+                android:textColor="#5F9EA0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/lte_sig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="8dp"
+                android:text="GPS Location:"
+                android:textColor="#5F9EA0"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/GPS_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/ll"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:text="view all"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+
+                />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
